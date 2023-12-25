@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <title>Boosden</title>
+    <link href="css/bootstrap.min.css " rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+<body>
+    <!--üst bölme-->
+    <div class="container-fluid position-fixed p-0">
+        <nav class="navbar navbar-expand-sm bg-light ">
+            <div class="container-fluid  navbar-collapse">
+                <div class="navbar-brand"><img class="w-75 h-50" src="resim/logo.png"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark ms-4 me-4 yazi" href="#">KURUMSAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark ms-4 me-4 yazi" href="#">OLAY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark ms-4 me-4 yazi" href="#">YARIŞMA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark ms-4 me-4 yazi" href="#">PROGRAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark ms-4 me-4 yazi" href="#">DUYURULAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark ms-4 me-4 yazi" href="#">KURUMSAL KATILIM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark ms-4 me-4 yazi" href="#">DÜKKAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark ms-4 me-4 yazi" href="#">TEMAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark ms-4 me-4 yazi" href="#">GALERİ</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+    </div>
+    <!--Yarışma-->
+    <div class="container-fluid renk-bg p-5">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-2 text-white text">
+                <h3>YARIŞMA</h3>
+            </div>
+
+        </div>
+    </div>
+    <!--Orta kısım-->
+    <!--Yarışma arama-->
+    <div class="container-fluid bg-primary p-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-4">
+                <div class="col">
+                    <div class="container rounded-pill bg bg-white">
+                        <div class="row p-3">
+                            <div class="col-5 text-black-50">
+                                YARIŞMA ARA
+
+                            </div>
+                            <div class="col"> </div>
+
+                            <div class="col-4 text-black-50">
+                                TÜM KATAGORİLER
+                                <i class="fa fa-angle-down col"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-fluid bg-primary p-5">
+        <div class="row d-flex justify-content-center align-items-start">
+            <div class="col-7">
+                <div class="col d-flex align-items-start ">
+                    <div class="container rounded-pill ">
+                        <div class="row p-3">
+                            <div class="col text-white text-center">
+                                <img src="resim/1.png" class="rounded-circle bg-white">
+                                <h5 class="text-center">TÜM KATAGORİLER</h5>
+                            </div>
+                            <div class="col"></div>
+                            <div class="col text-white text-center">
+                                <img src="resim/K1.png" class="rounded-circle bg-white">
+                                <h5>İLKOKUL</h5>
+                            </div>
+                            <div class="col"></div>
+                            <div class="col text-white text-center">
+                                <img src="resim/K2.png" class="rounded-circle bg-white">
+                                <h5>ORTAOKUL</h5>
+                            </div>
+                            <div class="col"></div>
+                            <div class="col text-white text-center">
+                                <img src="resim/1.png" class="rounded-circle bg-white">
+                                <h5>LİSE</h5>
+                            </div>
+                            <div class="col"></div>
+                            <div class="col text-white text-center">
+                                <img src="images/ap4QVoc4PYn4JEP9cnXlqJjXYIQiKe1l.png" class="rounded-circle bg-white">
+                                <h5>LİSANS VE YÜKSEK LİSANS</h5>
+                            </div>
+                            <div class="col"></div>
+                            <div class="col text-white text-center">
+                                <img src="resim/1.png" class="rounded-circle bg-white">
+                                <h5>MEZUN</h5>
+                            </div>
+                            <div class="col"></div>
+                            <div class="col text-white text-center">
+                                <img src="resim/1.png" class="rounded-circle bg-white">
+                                <h5>KURUMSAL SEKTÖR</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-fluid bg-primary p-3">
+        <div class="row d-flex justify-content-center ">
+            <div class="col-2 ">
+                <div class=" res me-2 p-5 bg-white card   d-flex justify-content-center align-items-center">
+                    <div class="text-center mb-3"><h6>TEKNOFEST GİRİŞİM YARIŞMASI</h6></div>
+                    <div class="w-50"><img class="img-fluid w-100 h-100" src="resim/3.png"></div>
+                    <div class="btn mt-4 btn-success rounded-5"><i class="fa fa-edit"> Başvuru Aşaması</i></div>
+                </div>
+
+            </div>
+            <div class="col-2 ">
+                <div class="res me-3 p-5 bg-white card   d-flex justify-content-center align-items-center">
+                    <div class="text-center mb-3"><h6>AKILLI ULAŞIM YARIŞMASI</h6></div>
+                    <div class="w-50"><img class="img-fluid w-100 h-100" src="resim/5.png"></div>
+                    <div class="btn mt-4 btn-primary rounded-5"><i class="fa fa-check-circle-o"> Tamamlandı</i></div>
+                </div>
+
+
+
+
+            </div>
+            <div class="col-2  ">
+                <div class="res me-3 bg-white p-5 card   d-flex justify-content-center align-items-center">
+                    <div class="text-center mb-5"><h6>TEKNOFEST İNOVASYON YARIŞMASI</h6></div>
+                    <div class="w-50"><img class="img-fluid w-100 h-100" src="resim/4.png"></div>
+                    <div class="btn mt-4 btn-success rounded-5"><i class="fa fa-edit"> Başvuru Aşaması</i></div>
+                </div>
+
+
+
+
+
+
+            </div>
+            <div class="col-2 ">
+                <div class="res me-3 p-5 bg-white card   d-flex justify-content-center align-items-center">
+                    <div class="text-center mb-4"><h6>ÇEVRE VE ENERJİ TEKNOLOJİLERİ</h6></div>
+                    <div class="w-50"><img class="img-fluid" src="resim/5.png"></div>
+                    <div class="btn mt-4 btn-success rounded-5"><i class="fa fa-edit"> Başvuru Aşaması</i></div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+        <div class="row mt-3 d-flex justify-content-center ">
+            <div class="col-2 ">
+                <div class="res me-2 p-5 bg-white card   d-flex justify-content-center align-items-center">
+                    <div class="text-center mb-3"><h6>TEKNOFEST GİRİŞİM YARIŞMASI</h6></div>
+                    <div class="w-50"><img class="img-fluid" src="resim/3.png"></div>
+                    <div class="btn mt-4 btn-success rounded-5"><i class="fa fa-edit"> Başvuru Aşaması</i></div>
+                </div>
+
+            </div>
+            <div class="col-2 ">
+                <div class="me-3  p-5  bg-white card   d-flex justify-content-center align-items-center">
+                    <div class="text-center mb-3"><h6>AKILLI ULAŞIM YARIŞMASI</h6></div>
+                    <div class="w-50"><img class="img-fluid w-100 h-100" src="resim/5.png"></div>
+                    <div class="btn mt-4 btn-primary rounded-5"><i class="fa fa-check-circle-o"> Tamamlandı</i></div>
+                </div>
+
+
+
+            </div>
+            <div class="col-2 ">
+                <div class="me-3 p-4 res bg-white card   d-flex justify-content-center align-items-center">
+                    <div class="text-center mb-5"><h6>TEKNOFEST İNOVASYON YARIŞMASI</h6></div>
+                    <div class="w-100 "><img class="img-fluid w-100 h-100" src="resim/4.png"></div>
+                    <div class="btn mt-4 btn-success rounded-5"><i class="fa fa-edit"> Başvuru Aşaması</i></div>
+                </div>
+
+
+
+
+            </div>
+            <div class="col-2 ">
+
+                <div class="me-3 p-5 res bg-white card   d-flex justify-content-center align-items-center">
+                    <div class="text-center mb-3"><h6>ÇEVRE VE ENERJİ TEKNOLOJİLERİ</h6></div>
+                    <div class="w-50 "><img class="img-fluid w-100 h-100" src="resim/5.png"></div>
+                    <div class="btn mt-4 btn-success rounded-5"><i class="fa fa-edit"> Başvuru Aşaması</i></div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-fluid darkblue-bg">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-3 d-flex align-items-center">
+                <img class="w-50 h-75" src="images/Adsız.png">
+            </div>
+            <div class="col">
+                <div class="text-white d-flex align-items-center mt-3 fw-bold d-inline"><i class="fa fa-group"></i> Adres</div>
+                <div class="text-white">Ünalan Mahallesi Ayazma Caddesi No:3 Üsküdar/İstanbul</div>
+            </div>
+            <div class="col">
+                <div class="text-white d-flex align-items-center mt-3 fw-bold d-inline"><i class=" fa fa-phone"></i> TELEFON</div>
+                <div class="text-white">
+                    +90 212 501 94 34
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-white d-flex align-items-center mt-3 fw-bold">SOSYAL MEDYA</div>
+                <div class="text-white"><i class="fa fa-instagram"></i> <i class="fa fa-twitter"></i> <i class="fa fa-facebook"></i> <i class="fa fa-youtube"></i> <i class="fa fa-telegram"></i> </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
